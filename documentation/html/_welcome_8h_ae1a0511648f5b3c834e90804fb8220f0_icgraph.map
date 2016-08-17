@@ -1,0 +1,8 @@
+<map id="renderText" name="renderText">
+<area shape="rect" id="node2" href="$_welcome_8cpp.html#acbf53ebc41006380aa65a896e78e6b54" title="Render Heading Heading Text which is rendered which flips along the x axis during idle execution..." alt="" coords="139,5,240,32"/>
+<area shape="rect" id="node6" href="$_welcome_8cpp.html#ac0a40af75d169dc19259d9c8426dbecd" title="Render the credits for Project Credits for the project are displayed under this section using lightin..." alt="" coords="142,56,237,83"/>
+<area shape="rect" id="node7" href="$_welcome_8cpp.html#a7fb951989db7d0ad7deef93b1abb81f6" title="Show footer message Show footer message for instructions to be followed by the user as a marquee..." alt="" coords="144,107,235,133"/>
+<area shape="rect" id="node3" href="$_welcome_8cpp.html#aa648180a8657523f2445fd2bb6b935b3" title="Set background image Load the welcome screen with the required welcome image. Render the header..." alt="" coords="288,56,424,83"/>
+<area shape="rect" id="node4" href="$main_8h.html#a1e5b20fed15743656bb6d2e6a6ea6269" title="Render function used in Opengl the Render function used to display showWelcomeScreen decides welcome ..." alt="" coords="473,56,535,83"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a5ea466849f21e6c2be4ef9b2eb8868d3" title="main" alt="" coords="584,56,635,83"/>
+</map>

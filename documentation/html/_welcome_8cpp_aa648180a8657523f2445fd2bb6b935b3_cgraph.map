@@ -1,0 +1,6 @@
+<map id="runWelcomeScreen" name="runWelcomeScreen">
+<area shape="rect" id="node2" href="$_welcome_8cpp.html#acbf53ebc41006380aa65a896e78e6b54" title="Render Heading Heading Text which is rendered which flips along the x axis during idle execution..." alt="" coords="189,5,291,32"/>
+<area shape="rect" id="node4" href="$_welcome_8cpp.html#ac0a40af75d169dc19259d9c8426dbecd" title="Render the credits for Project Credits for the project are displayed under this section using lightin..." alt="" coords="193,56,287,83"/>
+<area shape="rect" id="node5" href="$_welcome_8cpp.html#a7fb951989db7d0ad7deef93b1abb81f6" title="Show footer message Show footer message for instructions to be followed by the user as a marquee..." alt="" coords="195,107,285,133"/>
+<area shape="rect" id="node3" href="$_welcome_8cpp.html#a829f28ec244b8ed9540feac6ba15b66b" title="Render the text as stroke character Renders the string argument passed on the screen as a stroke text..." alt="" coords="339,56,423,83"/>
+</map>

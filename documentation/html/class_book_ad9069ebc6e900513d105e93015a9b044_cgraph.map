@@ -1,0 +1,7 @@
+<map id="Book::renderBook" name="Book::renderBook">
+<area shape="rect" id="node2" href="$class_book.html#a5cbb049173b5eaec1f07312598a51462" title="Set Page Border Set the page border based on the size mentioned in the config/constants file..." alt="" coords="182,31,298,57"/>
+<area shape="rect" id="node3" href="$_page_8h.html#a7285a046232d5f179cc2419f1b2fd554" title="Construct individual faces for the cube. Construction of a cube called from the square construction..." alt="" coords="347,5,471,32"/>
+<area shape="rect" id="node5" href="$class_book.html#ad4e9fa6fc0e72cfbf1d2cccaf1a9928b" title="Book::fillFaces" alt="" coords="355,56,464,83"/>
+<area shape="rect" id="node4" href="$_page_8cpp.html#aaa851d5fa1e4507824db516f70a7b952" title="construct a square Construction of a individual faces based on the input of each of the vertices to f..." alt="" coords="521,5,655,32"/>
+<area shape="rect" id="node6" href="$_book_8cpp.html#ae84f850e5406b81deab7dcba4a94d1dc" title="constructPolygon" alt="" coords="527,56,649,83"/>
+</map>

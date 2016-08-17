@@ -1,0 +1,5 @@
+<map id="showFooter" name="showFooter">
+<area shape="rect" id="node2" href="$_welcome_8cpp.html#aa648180a8657523f2445fd2bb6b935b3" title="Set background image Load the welcome screen with the required welcome image. Render the header..." alt="" coords="144,5,280,32"/>
+<area shape="rect" id="node3" href="$main_8h.html#a1e5b20fed15743656bb6d2e6a6ea6269" title="Render function used in Opengl the Render function used to display showWelcomeScreen decides welcome ..." alt="" coords="329,5,391,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#a5ea466849f21e6c2be4ef9b2eb8868d3" title="main" alt="" coords="440,5,491,32"/>
+</map>

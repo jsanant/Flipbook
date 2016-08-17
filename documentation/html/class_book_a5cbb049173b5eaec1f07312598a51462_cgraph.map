@@ -1,0 +1,6 @@
+<map id="Book::setBorder" name="Book::setBorder">
+<area shape="rect" id="node2" href="$_page_8h.html#a7285a046232d5f179cc2419f1b2fd554" title="Construct individual faces for the cube. Construction of a cube called from the square construction..." alt="" coords="171,5,295,32"/>
+<area shape="rect" id="node4" href="$class_book.html#ad4e9fa6fc0e72cfbf1d2cccaf1a9928b" title="Book::fillFaces" alt="" coords="179,56,288,83"/>
+<area shape="rect" id="node3" href="$_page_8cpp.html#aaa851d5fa1e4507824db516f70a7b952" title="construct a square Construction of a individual faces based on the input of each of the vertices to f..." alt="" coords="345,5,479,32"/>
+<area shape="rect" id="node5" href="$_book_8cpp.html#ae84f850e5406b81deab7dcba4a94d1dc" title="constructPolygon" alt="" coords="351,56,473,83"/>
+</map>

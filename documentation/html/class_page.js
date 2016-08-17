@@ -1,0 +1,25 @@
+var class_page =
+[
+    [ "Page", "class_page.html#aa00f3d2d26ab1fc9e5c1568235075920", null ],
+    [ "Page", "class_page.html#a77cb7f5fd055fefd05440246ed5ea6b8", null ],
+    [ "init", "class_page.html#a4fdbff495d3f7be14593f1d9214961cb", null ],
+    [ "renderPage", "class_page.html#a8c7e8eaf23ae8f4b114e0e99b9240679", null ],
+    [ "renderText", "class_page.html#a77650b66521b8bfd346c2a834a0b6841", null ],
+    [ "setBorder", "class_page.html#a9be6a13b368c6f6b87bb0705a2f215f6", null ],
+    [ "setMargin", "class_page.html#ab363b59475cfd744fc006aa73200b36d", null ],
+    [ "setPageLines", "class_page.html#add94aeb696dbf2029addfbe564dfead2", null ],
+    [ "currentLine", "class_page.html#aeeefd497e9c500bdbbee24c60e9d1ffb", null ],
+    [ "height", "class_page.html#a8bcef148220e881ed4fa7fc14b9691b9", null ],
+    [ "lineHeight", "class_page.html#a0170ea39027045c0d84fa6922b5eb959", null ],
+    [ "lines", "class_page.html#af6b146a3bbbf55d2b5b91e808232787d", null ],
+    [ "marginHeight", "class_page.html#a23406fd7170ea160821a892eae680512", null ],
+    [ "marginWidth", "class_page.html#aa155bb95fa1d4a520683aba24b9a0890", null ],
+    [ "noOfLines", "class_page.html#ae572877be7c156f88deae9ba184f8a68", null ],
+    [ "pageContent", "class_page.html#a6e1e893f82672319562ebdb16913cab3", null ],
+    [ "text", "class_page.html#a28acd04b90df50c89176f087c4fae2f1", null ],
+    [ "type", "class_page.html#a232b289d972f562506424eb8619b0794", null ],
+    [ "width", "class_page.html#a2a315468aa8ba7afc9143c6257358c07", null ],
+    [ "x", "class_page.html#a776083d270502c80678686bc94e46201", null ],
+    [ "y", "class_page.html#a9093b44a6af97572a73360381d7c0f63", null ],
+    [ "z", "class_page.html#abcc27dd469350dcfe14aa4e8ac9d3c63", null ]
+];

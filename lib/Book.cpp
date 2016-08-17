@@ -1,0 +1,133 @@
+#include "./headers/Book.h"
+
+/*!
+    \fn Book::Book()
+    \brief Constructor sets book position to 0,0,0
+    Constructor which initialises all the required data members for the class
+*/
+Book::Book(){
+    this->x = 0;
+    this->y = 0;
+    this->z = 0;
+    this->width = BOOK_WIDTH;
+    this->height = BOOK_HEIGHT;
+    this->noOfPages = 0;
+    this->pages = new Page*[MAX_NO_PAGES];
+    this->currentPageIndex = 0;
+}
+
+/*!
+    \fn Book::renderBook()
+    \brief Render the book.
+    Render the Book with the margin and border on the screen.
+*/
+void Book::renderBook(){
+    int i=0;
+    glColor3f(0.0,0.0,0.0);
+    setBorder();
+}
+
+/*!
+    \fn Book::setBorder()
+    \brief Set Page Border
+    Set the page border based on the size mentioned in the config/constants file.
+    Render a 3d image for the book.
+*/
+void Book::setBorder(){
+    glColor3f(0,0,0);
+    GLfloat xLimit = x + width;
+    GLfloat yLimit = y + height;
+    GLfloat zLimit = z - BOOK_THICKNESS;
+    cubeConstruction(x, y, z, xLimit, yLimit, zLimit);
+    glColor3f(1,1,1);
+    fillFaces(xLimit, yLimit, zLimit);
+}
+
+/*!
+    \fn Book::addPage(GLint type, char s[])
+    \brief Add a new Page
+    Add a text page to the book by creating a new page from Page class and storing that as 
+    a page in the created Book object.
+    type -> Page type
+    s -> String to be rendered onto the page
+*/
+void Book::addPage(GLint type, char s[]){
+    pages[noOfPages] = new Page(type, (x + BOOK_BORDER_SIZE), y + BOOK_BORDER_SIZE, -(noOfPages * (PAGE_THICKNESS + PAGE_GAP)), s);
+    noOfPages++;
+}
+
+/*!
+    \fn Book::addPage(GLint type, void (*pageContent)(GLfloat, GLfloat, GLfloat, GLfloat, GLfloat))
+    \brief Add a new Page
+    Add a drawing page to the book by creating a new page from Page class and storing that as 
+    a page in the created Book object.
+    type -> Page type
+    pageContent -> function pointer which renders the drawing inside the Page. 
+*/
+void Book::addPage(GLint type, void (*pageContent)(GLfloat, GLfloat, GLfloat, GLfloat, GLfloat)){
+    pages[noOfPages] = new Page(type, (x + BOOK_BORDER_SIZE), y + BOOK_BORDER_SIZE, -(noOfPages * (PAGE_THICKNESS + PAGE_GAP)), pageContent);
+    noOfPages++;
+}
+
+/*!
+    \fn Book::renderPage()
+    \brief Render the Page constructed
+    Render the Page pointed by the currentPageIndex.
+*/
+void Book::renderPage(){
+    pages[currentPageIndex]->renderPage();
+}
+
+/*!
+    \fn Book::renderPage(GLint pageIndex)
+    \brief Render the Page constructed
+    Render the specified page in the book.
+*/
+void Book::renderPage(GLint pageIndex){
+    if(pageIndex<noOfPages){
+        pages[pageIndex]->renderPage();
+        currentPageIndex = pageIndex;
+    }
+}
+
+/*!
+    \fn constructPolygon()
+    \brief Construct a Polygon for the given vertices
+*/
+void constructPolygon(GLfloat vertices[][3]){
+    glBegin(GL_POLYGON);
+        for(int i=0;i<4;i++){
+            glVertex3f(vertices[i][0],vertices[i][1],vertices[i][2]);
+            glNormal3f(vertices[i][0],vertices[i][1],vertices[i][2]);
+        }
+    glEnd();
+}
+
+/*!
+    \fn fillFaces()
+    \brief Select each face and construct a Polygon
+*/
+void Book::fillFaces(GLfloat xLimit, GLfloat yLimit, GLfloat zLimit){
+    glColor3f(0.5,0,0.5);
+    GLfloat backFace[][3]={
+        {x, y, zLimit}, {xLimit, y, zLimit}, {xLimit, yLimit, zLimit}, {x, yLimit, zLimit}
+    };
+    constructPolygon(backFace);
+    GLfloat bottomFace[][3]={
+        {x,y,z},{xLimit,y,z},{xLimit,y,zLimit},{x,y,zLimit}
+    };
+    constructPolygon(bottomFace);
+    GLfloat topFace[][3]={
+        {x,yLimit,z},{xLimit,yLimit,z},{xLimit,yLimit,zLimit},{x,yLimit,zLimit}
+    };
+    constructPolygon(topFace);
+    GLfloat leftFace[][3]={
+        {x,y,z},{x,yLimit,z},{x,yLimit,zLimit},{x,y,zLimit}
+    };
+    constructPolygon(leftFace);
+    GLfloat rightFace[][3]={
+        {xLimit,y,zLimit},{xLimit,yLimit,zLimit},{xLimit,yLimit,z},{xLimit,yLimit,z}
+    };
+    constructPolygon(rightFace);
+    glColor3f(1,1,1);
+}

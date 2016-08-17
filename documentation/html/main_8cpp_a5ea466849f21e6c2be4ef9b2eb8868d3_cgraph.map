@@ -1,0 +1,51 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$main_8cpp.html#aeea7e8a84bb71fb25af42bdac6d10dee" title="Callback for window reshape Called initially during rendering and on window reshape. sets the PROJECTION_MATRIX and based on screen display Welcome screen &#45;&gt; Parallel Projection Main screen &#45;&gt; Perspective Projection. " alt="" coords="343,5,433,32"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a0b9b6e6acd4a839fc7c2f26f96b5cfa8" title="Render function used in Opengl the Render function used to display showWelcomeScreen decides welcome ..." alt="" coords="150,791,213,817"/>
+<area shape="rect" id="node43" href="$main_8cpp.html#a195d5616f8860ba14eb8e902616d482f" title="Load individual images as textures for texture mapping. " alt="" coords="105,1551,258,1577"/>
+<area shape="rect" id="node45" href="$main_8cpp.html#aed8610bacf6003573d19bcdedaf30f8b" title="Create menu and add entries for mouse interaction. " alt="" coords="113,1601,249,1628"/>
+<area shape="rect" id="node47" href="$main_8cpp.html#a8b643d69ad369b9a5d7a0063c60de167" title="Keyboard interaction Callback function for keyboard input interaction. unsigned char key &#45;&gt; holds asc..." alt="" coords="135,1652,228,1679"/>
+<area shape="rect" id="node48" href="$main_8cpp.html#a1eccf691b469d4b42bad1c7ee40c4f3b" title="idleStateExecute" alt="" coords="121,1703,242,1729"/>
+<area shape="rect" id="node50" href="$main_8cpp.html#aa59965f547cb3f8a5cfd383fa0ed448c" title="Mouse interaction for movement of Book. " alt="" coords="111,1753,251,1780"/>
+<area shape="rect" id="node4" href="$_welcome_8h.html#ac80149b735a3cb1c3587aed275b11b9a" title="Set background image Load the welcome screen with the required welcome image. Render the header..." alt="" coords="320,56,456,83"/>
+<area shape="rect" id="node9" href="$main_8cpp.html#a23eede0de8dca02999beedd6dd0acb4c" title="Select Viewing Type Selects the view type based on user input interaction Selection based on viewId v..." alt="" coords="320,107,456,133"/>
+<area shape="rect" id="node10" href="$_room_8h.html#a6ddcc1588291b85478a6b2747b08ab15" title="Construct the room, walls with a table Constructs the Room with the table with texture mapping for th..." alt="" coords="345,157,431,184"/>
+<area shape="rect" id="node12" href="$class_book.html#a7c8211dd36ae6451fe50b589464fe010" title="Add a new Page Add a text page to the book by creating a new page from Page class and storing that as..." alt="" coords="333,208,443,235"/>
+<area shape="rect" id="node13" href="$_drawings_8cpp.html#a6fbf19d0d546f7aa30e809418dc80feb" title="level" alt="" coords="363,259,413,285"/>
+<area shape="rect" id="node14" href="$_drawings_8cpp.html#ad8e4c24b97054918524a60f7b24f675d" title="level1" alt="" coords="360,309,416,336"/>
+<area shape="rect" id="node15" href="$_drawings_8cpp.html#a4f5135effed4f012e4e2b18231309a54" title="level2" alt="" coords="360,360,416,387"/>
+<area shape="rect" id="node16" href="$_drawings_8cpp.html#ae6ef8a7515d21bcd89f8d4b3252e1664" title="level3" alt="" coords="360,411,416,437"/>
+<area shape="rect" id="node17" href="$_drawings_8cpp.html#a5185ec3faa0cd286c22e37668acd690d" title="level4" alt="" coords="360,461,416,488"/>
+<area shape="rect" id="node18" href="$_drawings_8cpp.html#aa2fe662dd6d3aaa936b26fe527a8c781" title="level5" alt="" coords="360,512,416,539"/>
+<area shape="rect" id="node19" href="$_drawings_8cpp.html#a9997b542a94a491196e877bdfe5037d3" title="level6" alt="" coords="360,563,416,589"/>
+<area shape="rect" id="node20" href="$_drawings_8cpp.html#aadfb74f972bceb9591983d8c56c6bb0c" title="level7" alt="" coords="360,613,416,640"/>
+<area shape="rect" id="node21" href="$_drawings_8cpp.html#a75d4582e99fa662d6f68e9b11a25b94f" title="level8" alt="" coords="360,664,416,691"/>
+<area shape="rect" id="node22" href="$_drawings_8cpp.html#ab6196e5d0f8958b146c5eece2454c91e" title="level9" alt="" coords="360,715,416,741"/>
+<area shape="rect" id="node23" href="$_drawings_8cpp.html#aa5a47ba867a36b18c66d29d57068b064" title="level10" alt="" coords="357,765,419,792"/>
+<area shape="rect" id="node24" href="$_drawings_8cpp.html#a07fd3d46e392446c3c536d8dfea3768a" title="level11" alt="" coords="357,816,419,843"/>
+<area shape="rect" id="node25" href="$_drawings_8cpp.html#a18b640f4d022d87526edb1ae047bb20e" title="level12" alt="" coords="357,867,419,893"/>
+<area shape="rect" id="node26" href="$_drawings_8cpp.html#a15790b6a34593109dd2e93ec23a67e31" title="level13" alt="" coords="357,917,419,944"/>
+<area shape="rect" id="node27" href="$_drawings_8cpp.html#aa61c5af8fc06f3a66f2c2fc7dcb63b6d" title="level14" alt="" coords="357,968,419,995"/>
+<area shape="rect" id="node28" href="$_drawings_8cpp.html#ab34440ac84237062252eb414fe4cec3a" title="level15" alt="" coords="357,1019,419,1045"/>
+<area shape="rect" id="node29" href="$_drawings_8cpp.html#a533a2446423239b428dd68bd75f89e83" title="level16" alt="" coords="357,1069,419,1096"/>
+<area shape="rect" id="node30" href="$_drawings_8cpp.html#a75c4aeb84bf322577e77e6b2c6ed1ca7" title="level17" alt="" coords="357,1120,419,1147"/>
+<area shape="rect" id="node31" href="$_drawings_8cpp.html#a2c3fe26ad13037652d661706d26442b6" title="level18" alt="" coords="357,1171,419,1197"/>
+<area shape="rect" id="node32" href="$_drawings_8cpp.html#a9a5061105f58414077e3d4cee55fe65f" title="level19" alt="" coords="357,1221,419,1248"/>
+<area shape="rect" id="node33" href="$_drawings_8cpp.html#a6b25c147e3c026df757d56b7f5515fc9" title="level20" alt="" coords="357,1272,419,1299"/>
+<area shape="rect" id="node34" href="$_drawings_8cpp.html#a20431a02901b9612f81cab2dada12837" title="level21" alt="" coords="357,1323,419,1349"/>
+<area shape="rect" id="node35" href="$_drawings_8cpp.html#a5b69ca6bc1586ef71d3817c7a9400917" title="level22" alt="" coords="357,1373,419,1400"/>
+<area shape="rect" id="node36" href="$class_book.html#ad9069ebc6e900513d105e93015a9b044" title="Render the book. Render the Book with the margin and border on the screen. " alt="" coords="325,1424,451,1451"/>
+<area shape="rect" id="node40" href="$main_8cpp.html#a2aea32e18a530bf511119ef7a68cf060" title="Select Page Flip Type. Selects the type of page flip chosen by the user. flipId &#45;&gt; holds the page fli..." alt="" coords="307,1475,469,1501"/>
+<area shape="rect" id="node41" href="$class_book.html#a6bd58255c8921ed2c26dd0acc030159d" title="Render the Page constructed Render the Page pointed by the currentPageIndex. " alt="" coords="325,1525,451,1552"/>
+<area shape="rect" id="node5" href="$_welcome_8cpp.html#acbf53ebc41006380aa65a896e78e6b54" title="Render Heading Heading Text which is rendered which flips along the x axis during idle execution..." alt="" coords="531,5,632,32"/>
+<area shape="rect" id="node7" href="$_welcome_8cpp.html#ac0a40af75d169dc19259d9c8426dbecd" title="Render the credits for Project Credits for the project are displayed under this section using lightin..." alt="" coords="534,56,629,83"/>
+<area shape="rect" id="node8" href="$_welcome_8cpp.html#a7fb951989db7d0ad7deef93b1abb81f6" title="Show footer message Show footer message for instructions to be followed by the user as a marquee..." alt="" coords="536,107,627,133"/>
+<area shape="rect" id="node6" href="$_welcome_8cpp.html#a829f28ec244b8ed9540feac6ba15b66b" title="Render the text as stroke character Renders the string argument passed on the screen as a stroke text..." alt="" coords="714,56,798,83"/>
+<area shape="rect" id="node11" href="$_room_8cpp.html#a94f876d6292cd7df0a24a2a17d9a69b6" title="Construct a table Constructs the table with the specified texture mapped. " alt="" coords="538,157,625,184"/>
+<area shape="rect" id="node37" href="$class_book.html#a5cbb049173b5eaec1f07312598a51462" title="Set Page Border Set the page border based on the size mentioned in the config/constants file..." alt="" coords="523,1424,639,1451"/>
+<area shape="rect" id="node38" href="$_page_8h.html#a7285a046232d5f179cc2419f1b2fd554" title="Construct individual faces for the cube. Construction of a cube called from the square construction..." alt="" coords="694,1399,818,1425"/>
+<area shape="rect" id="node39" href="$class_book.html#ad4e9fa6fc0e72cfbf1d2cccaf1a9928b" title="Book::fillFaces" alt="" coords="701,1449,811,1476"/>
+<area shape="rect" id="node42" href="$class_page.html#a8c7e8eaf23ae8f4b114e0e99b9240679" title="Renders the specified Page Renders the Page onto the screen after setting the border, margin. text pages &#45;&gt; sets lines for the page and render the specified text. drawing pages &#45;&gt; calls the user defined function to draw inside the Page. " alt="" coords="518,1525,645,1552"/>
+<area shape="rect" id="node44" href="$_textures_8h.html#a6572262d7ad8ce2e1202944baa93e094" title="load an image as texture Load the given input filename as an image using libSOIL and render it as a t..." alt="" coords="339,1576,437,1603"/>
+<area shape="rect" id="node46" href="$main_8cpp.html#a135b751331bbcb31de2b0b84227663d8" title="Mouse interaction in selection of menu Callback function for mouse input interaction. int id &#45;&gt; id of the clicked menu item from the user. " alt="" coords="352,1627,424,1653"/>
+<area shape="rect" id="node49" href="$main_8cpp.html#a077c858d872b148b16401ccc28d4233d" title="Increase the angle of rotation flipPage increases the angle for rotation until the limit value set on..." alt="" coords="353,1703,423,1729"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Page::renderPage" name="Page::renderPage">
+<area shape="rect" id="node2" href="$class_page.html#a9be6a13b368c6f6b87bb0705a2f215f6" title="Set Page border on the screen. Set page border which is rendered onto the screen from the config/cons..." alt="" coords="193,5,309,32"/>
+<area shape="rect" id="node5" href="$class_page.html#ab363b59475cfd744fc006aa73200b36d" title="Set Page Margin Set margin for the page which is to be rendered onto the screen from the config/const..." alt="" coords="192,56,309,83"/>
+<area shape="rect" id="node6" href="$class_page.html#add94aeb696dbf2029addfbe564dfead2" title="Set Page lines for text Page. Render pagelines for the Page from the margin where the line height is ..." alt="" coords="181,107,320,133"/>
+<area shape="rect" id="node7" href="$class_page.html#a77650b66521b8bfd346c2a834a0b6841" title="Renders the specified text on the Page. Renders the text onto the page after calculating the offset v..." alt="" coords="189,157,312,184"/>
+<area shape="rect" id="node3" href="$_page_8cpp.html#af260e2bc7a5d5f583501546ecaa96891" title="Construct individual faces for the cube. Construction of a cube called from the square construction..." alt="" coords="369,5,493,32"/>
+<area shape="rect" id="node4" href="$_page_8cpp.html#aaa851d5fa1e4507824db516f70a7b952" title="construct a square Construction of a individual faces based on the input of each of the vertices to f..." alt="" coords="542,5,677,32"/>
+</map>
